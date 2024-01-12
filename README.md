@@ -22,7 +22,7 @@ __Toshiba Laptop Tecra Z50-A__
 | Sound	card	| Realtek ALC283	 |
 | WLAN	| Intel Wireless 7260 	 |
 | LAN	| Intel I218-V 		 |
-| Display	LVDS or eDP display |
+| Display | LVDS or eDP display |
 
 ## Credit
 
