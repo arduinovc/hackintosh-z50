@@ -5,8 +5,8 @@ Last update: January 12th 2024.
 
 ## Description
 
-EFI files based on OpenCore. 
-OpenCore version: 0.9.7. 
+EFI files based on OpenCore  
+OpenCore version: 0.9.7  
 MacOS version: __Monterey 12.7.1__
 
 ## Hardware
