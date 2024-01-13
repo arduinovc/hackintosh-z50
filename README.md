@@ -11,7 +11,7 @@ MacOS version: __Monterey 12.7.1__
 
 ## Hardware
 
-__Toshiba Laptop Tecra Z50-A__
+__Laptop Toshiba Tecra Z50-A__
 
 | Type	| Name                   |
 |:------|:-----------------------|
