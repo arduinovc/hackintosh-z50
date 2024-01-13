@@ -12,6 +12,8 @@ MacOS version: __Monterey 12.7.1__
 ## Hardware
 
 __Laptop Toshiba Tecra Z50-A__
+![Toshiba Tecra Z50](/Assets/TecraZ50.jpeg "Toshiba Tecra Z50")
+
 
 | Type	| Name                   |
 |:------|:-----------------------|
