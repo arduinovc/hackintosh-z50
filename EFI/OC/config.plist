@@ -638,7 +638,7 @@
                     <key>BundlePath</key>
                     <string>AirportBrcmFixup.kext</string>
                     <key>Comment</key>
-                    <string>V2.1.6</string>
+                    <string>V2.1.9</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
@@ -993,11 +993,11 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>darkwake=0 keepsyms=1 debug=0x100</string>
+                    <string>amfi_get_out_of_my_way=1 darkwake=0 keepsyms=1 debug=0x100</string>
                     <key>csr-active-config</key>
-                    <data>AAAAAA==</data>
+                    <data>7w8AAA==</data>
                     <key>prev-lang:kbd</key>
-                    <string>en-US:0</string>
+                    <string>fr-FR:0</string>
                     <key>run-efi-updater</key>
                     <string>No</string>
                 </dict>
