@@ -58,7 +58,6 @@ NumLock : nok
 ![Toshiba Tecra Z50 SystemSettings](/Assets/SystemSettings.png "Toshiba Tecra Z50")
 ![Toshiba Tecra Z50 OCAuxiliaryTools](/Assets/OCAuxiliaryTools.png "Toshiba Tecra Z50")
 
-
 ## Credit
 
 https://www.youtube.com/watch?v=2l0UI05RL8I
