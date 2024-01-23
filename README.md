@@ -53,7 +53,10 @@ Bluetooth : nok
 NumLock : nok  
 
 ## Screenshots
-
+![Toshiba Tecra Z50 Monterey](/Assets/Monterey.png "Toshiba Tecra Z50")
+![Toshiba Tecra Z50 SystemInfo](/Assets/SystemInfo.png "Toshiba Tecra Z50")
+![Toshiba Tecra Z50 SystemSettings](/Assets/SystemSettings.png "Toshiba Tecra Z50")
+![Toshiba Tecra Z50 OCAuxiliaryTools](/Assets/OCAuxiliaryTools "Toshiba Tecra Z50")
 
 
 ## Credit
