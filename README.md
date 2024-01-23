@@ -26,6 +26,36 @@ __Laptop Toshiba Tecra Z50-A__
 | LAN	| Intel I218-V 		 |
 | Display | LVDS or eDP display |
 
+## SMBIOS Info
+
+System Product Name : Macbook Pro 16.4  
+System Serial : C02DH04QMD6T  
+
+## Working and Not-Working
+
+### Working
+WIFI : ok  
+GPU : ok  
+Sleep/Wake : partialy  
+Shutdown/Restart : ok  
+USB Port : ok  
+Sound : ok  
+Brightness : ok  
+Webcom : ok  
+HDMI : ok  
+Touchpad : ok  
+Keyboard : ok  
+
+### Not-Working
+
+Card Reader : nok  
+Bluetooth : nok  
+NumLock : nok  
+
+## Screenshots
+
+
+
 ## Credit
 
 https://www.youtube.com/watch?v=2l0UI05RL8I
