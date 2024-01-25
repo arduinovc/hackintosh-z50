@@ -22,38 +22,6 @@
 	<string>1.1</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>EHC1</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.dhinakg.USBToolBox.kext</string>
-			<key>IOClass</key>
-			<string>USBToolBox</string>
-			<key>IOMatchCategory</key>
-			<string>USBToolBox</string>
-			<key>IONameMatch</key>
-			<string>EHC1</string>
-			<key>IOProviderClass</key>
-			<string>IOPCIDevice</string>
-			<key>IOProviderMergeProperties</key>
-			<dict>
-				<key>port-count</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>ports</key>
-				<dict>
-					<key>PRT1</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>port</key>
-						<data>
-						AQAAAA==
-						</data>
-					</dict>
-				</dict>
-			</dict>
-		</dict>
 		<key>XHC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
@@ -76,8 +44,10 @@
 				<dict>
 					<key>HS01</key>
 					<dict>
+						<key>#comment</key>
+						<string>USB2-Left-DOWN</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						AQAAAA==
@@ -85,8 +55,10 @@
 					</dict>
 					<key>HS02</key>
 					<dict>
+						<key>#comment</key>
+						<string>USB2-Right-UP</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						AgAAAA==
@@ -94,24 +66,19 @@
 					</dict>
 					<key>HS03</key>
 					<dict>
+						<key>#comment</key>
+						<string>USB2-Right-DOWN</string>
 						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>port</key>
-						<data>
-						BAAAAA==
-						</data>
-					</dict>
-					<key>HS04</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						BQAAAA==
 						</data>
 					</dict>
-					<key>HS05</key>
+					<key>HS04</key>
 					<dict>
+						<key>#comment</key>
+						<string>USB2-Hub-WEBCAMSDCARD</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>port</key>
@@ -119,8 +86,10 @@
 						BgAAAA==
 						</data>
 					</dict>
-					<key>HS06</key>
+					<key>HS05</key>
 					<dict>
+						<key>#comment</key>
+						<string>USB2-Left-UP</string>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>port</key>
@@ -128,8 +97,10 @@
 						BwAAAA==
 						</data>
 					</dict>
-					<key>HS07</key>
+					<key>HS06</key>
 					<dict>
+						<key>#comment</key>
+						<string>BLUETOOTH</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>port</key>
@@ -139,6 +110,8 @@
 					</dict>
 					<key>SS01</key>
 					<dict>
+						<key>#comment</key>
+						<string>USB3-Left-DOWN</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -148,6 +121,8 @@
 					</dict>
 					<key>SS02</key>
 					<dict>
+						<key>#comment</key>
+						<string>USB3-Right-UP</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -157,6 +132,8 @@
 					</dict>
 					<key>SS03</key>
 					<dict>
+						<key>#comment</key>
+						<string>USB3-Right-DOWN</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>

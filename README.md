@@ -36,20 +36,20 @@ System Serial : C02DH04QMD6T
 ### Working
 WIFI : ok  
 GPU : ok  
-Sleep/Wake : partialy  
+Sleep/Wake : partially  
 Shutdown/Restart : ok  
 USB Port : ok  
 Sound : ok  
 Brightness : ok  
 Webcom : ok  
-HDMI : ok  
+HDMI : ok 
 Touchpad : ok  
 Keyboard : ok  
+Card Reader : ok  
+Bluetooth : partially (not pairing iPhone)  
 
 ### Not-Working
-
-Card Reader : nok  
-Bluetooth : nok  
+ 
 NumLock : nok  
 
 ## Screenshots
