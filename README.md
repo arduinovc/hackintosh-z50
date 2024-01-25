@@ -42,8 +42,8 @@ USB Port : ok
 Sound : ok  
 Brightness : ok  
 Webcom : ok  
-HDMI : ok 
-Touchpad : ok  
+HDMI : ok  
+Touchpad : partially (need improvements)  
 Keyboard : ok  
 Card Reader : ok  
 Bluetooth : partially (not pairing iPhone)  
@@ -60,4 +60,5 @@ NumLock : nok
 
 ## Credit
 
-https://www.youtube.com/watch?v=2l0UI05RL8I
+EFI Base folder : https://github.com/yanpol199/toshiba_z50_hackintosh  
+Bluetooth fix : https://github.com/yusufklncc/Toshiba-Portege-Z30-Hackintosh  
