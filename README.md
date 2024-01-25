@@ -23,6 +23,7 @@ __Laptop Toshiba Tecra Z50-A__
 | Drive	| mSATA SSD 500 Gb	 |
 | Sound	card	| Realtek ALC283	 |
 | WLAN	| Intel Wireless 7260 	 |
+| Bluetooth | Intel Wireless 7260 #Port008 |
 | LAN	| Intel I218-V 		 |
 | Display | LVDS or eDP display |
 
@@ -42,7 +43,7 @@ USB Port : ok
 Sound : ok  
 Brightness : ok  
 Webcom : ok  
-HDMI : ok  
+HDMI : ok but sometimes it doesn't respond    
 Touchpad : partially (need improvements)  
 Keyboard : ok  
 Card Reader : ok  
@@ -57,6 +58,12 @@ NumLock : nok
 ![Toshiba Tecra Z50 SystemInfo](/Assets/SystemInfo.png "Toshiba Tecra Z50")
 ![Toshiba Tecra Z50 SystemSettings](/Assets/SystemSettings.png "Toshiba Tecra Z50")
 ![Toshiba Tecra Z50 OCAuxiliaryTools](/Assets/OCAuxiliaryTools.png "Toshiba Tecra Z50")
+
+## Work to do
+
+Improve HDMI support  
+Improve ALPS Touchpad support  
+Try to upgrade Monterey to Ventura or Sonoma  
 
 ## Credit
 
