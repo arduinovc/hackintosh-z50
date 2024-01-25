@@ -36,18 +36,21 @@ System Serial : C02DH04QMD6T
 
 ### Working
 WIFI : ok  
-GPU : ok  
-Sleep/Wake : partially  
+GPU : ok   
 Shutdown/Restart : ok  
 USB Port : ok  
-Sound : ok  
+Sound : ok (speakers and microphone)  
 Brightness : ok  
-Webcom : ok  
-HDMI : ok but sometimes it doesn't respond    
-Touchpad : partially (need improvements)  
+Webcam : ok  
 Keyboard : ok  
 Card Reader : ok  
-Bluetooth : partially (not pairing iPhone)  
+
+### Working with issue
+
+Sleep/Wake : partially (randomly not enter in sleep mode)  
+HDMI : ok but sometimes it doesn't respond  
+Touchpad : partially (need improvements / broken gestures)  
+Bluetooth : partially (not pairing iPhone / maybe missing UnlockFeatures kext)  
 
 ### Not-Working
  
