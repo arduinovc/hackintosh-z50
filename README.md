@@ -1,7 +1,7 @@
 # Hackintosh-z50
 
 EFI boot folder based on OpenCore for Toshiba Z50  
-Last update: January 12th 2024. 
+Last update: January 27th 2024. 
 
 ## Description
 
@@ -44,13 +44,15 @@ Brightness : ok
 Webcam : ok  
 Keyboard : ok  
 Card Reader : ok  
+Bluetooth : ok  
+Auto-unlock : with BLEUnlock
 
 ### Working with issue
 
 Sleep/Wake : partially (randomly not enter in sleep mode)  
 HDMI : ok but sometimes it doesn't respond  
-Touchpad : partially (need improvements / broken gestures)  
-Bluetooth : partially (not pairing iPhone / maybe missing UnlockFeatures kext)  
+Touchpad : partially (need improvements / broken gestures)    
+Audio quality : not good
 
 ### Not-Working
  
@@ -72,3 +74,4 @@ Try to upgrade Monterey to Ventura or Sonoma
 
 EFI Base folder : https://github.com/yanpol199/toshiba_z50_hackintosh  
 Bluetooth fix : https://github.com/yusufklncc/Toshiba-Portege-Z30-Hackintosh  
+https://github.com/ts1/BLEUnlock  
