@@ -1,0 +1,9 @@
+SystemProductName : MacBookPro16,4    Intel Core i7-9750H @ 2.60 GHz
+SystemSerialNumber : C02DH04QMD6T
+MLB : C02040500CD0000JA
+SystemUUID : 06E270F0-1217-4F27-B77C-3E84BD11C071
+ROM : 9DE13306FE1F
+ProcessorType : 1537
+
+Nom : MBP de Vincent
+OS : macOS 13.

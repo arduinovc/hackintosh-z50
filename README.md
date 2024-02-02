@@ -7,7 +7,23 @@ Last update: February 2nd 2024.
 
 EFI files based on OpenCore  
 OpenCore version: 0.9.7  
-MacOS version: __Monterey 12.7.1__
+Actual compatible macOS version: __Sonoma 14.3__  
+Tested with: __Monterey 12.7.3__ & __Ventura 13.6.4__  
+
+## How to use
+
+1/ Download a release corresponding to your macOS version  
+2/ Extract it on USB stick (GPT disk with FAT32 primary partition) or EFI partition  
+3/ Generate a new "SystemSerialNumber" and "SystemUUID" using OCAuxiliaryTools for example  
+4/ Save and reboot  
+
+### macOS Ventura and Sonoma
+
+Required to patch root with OpenCore Legacy Patcher (actual version 1.3.0)  to enable GPU acceleration.  
+To root patch, I edit boot-args and csr-active-config inside config.plist file :  
+- amfi_get_out_of_my_way=1 to disable AMFI  
+- car-active-confi = EF0F0000 to disable SIP  
+Some apps cannot work with this inc. Steam or Shadow.tech  
 
 ## Hardware
 
