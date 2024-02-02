@@ -82,7 +82,7 @@ Upload soon
 ### macOS Ventura 13.6.4  
 Upload soon  
 
-### macOS Monterey 12.7.1  
+### macOS Monterey 12.7.1  
 Last OS with native HD4400 support (no root patch)  
 ![Toshiba Tecra Z50 Monterey](/Assets/Monterey.png "Toshiba Tecra Z50")
 ![Toshiba Tecra Z50 SystemInfo](/Assets/SystemInfo.png "Toshiba Tecra Z50")
