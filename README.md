@@ -80,7 +80,12 @@ NumLock : nok
 Upload soon  
 
 ### macOS Ventura 13.6.4  
-Upload soon  
+Upgrade from Monterey to Ventura
+![Toshiba Tecra Z50 Monterey](/Assets/Ventura.png "Toshiba Tecra Z50")
+![Toshiba Tecra Z50 SystemInfo](/Assets/Ventura-SystemInfo.png "Toshiba Tecra Z50")
+![Toshiba Tecra Z50 SystemSettings](/Assets/Ventura-SystemSettings.png "Toshiba Tecra Z50")
+![Toshiba Tecra Z50 OCAuxiliaryTools](/Assets/Ventura-Launchpad.png "Toshiba Tecra Z50")
+  
 
 ### macOS Monterey 12.7.1  
 Last OS with native HD4400 support (no root patch)  
