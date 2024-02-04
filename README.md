@@ -77,7 +77,11 @@ NumLock : nok
 ## Screenshots
 
 ### macOS Sonoma 14.3  
-Upload soon  
+Upgrade from Ventura to Sonoma
+![Toshiba Tecra Z50 Monterey](/Assets/Sonoma.png "Toshiba Tecra Z50")
+![Toshiba Tecra Z50 SystemInfo](/Assets/Sonoma-SystemInfo.png "Toshiba Tecra Z50")
+![Toshiba Tecra Z50 SystemSettings](/Assets/Sonoma-SystemSettings.png "Toshiba Tecra Z50")
+![Toshiba Tecra Z50 OCAuxiliaryTools](/Assets/Sonoma-FinalCut.png "Toshiba Tecra Z50")
 
 ### macOS Ventura 13.6.4  
 Upgrade from Monterey to Ventura
