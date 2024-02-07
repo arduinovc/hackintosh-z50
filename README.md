@@ -23,17 +23,18 @@ Required to patch root with OpenCore Legacy Patcher (actual version 1.3.0)  to e
 To root patch, I edit boot-args and csr-active-config inside config.plist file :  
 - amfi_get_out_of_my_way=1 to disable AMFI  
 - car-active-confi = EF0F0000 to disable SIP  
-Some apps cannot work with this inc. Steam or Shadow.tech  
+
+Some apps cannot work with this : Steam / Shadow.tech / Music (Apple DRM) / Adobe apps (Illustrator / Photoshop)    
 
 ## Hardware
 
 __Laptop Toshiba Tecra Z50-A__  
-![Toshiba Tecra Z50](/Assets/TecraZ50.jpeg "Toshiba Tecra Z50")
-
+![Toshiba Tecra Z50](/Assets/TecraZ50.jpeg "Toshiba Tecra Z50")  
+[Datasheet Toshiba](/Assets/Toshiba-Z50-A-Datasheet.pdf)  
 
 | Type	| Name                   |
 |:------|:-----------------------|
-| CPU	| Intel i5 4200U	 |
+| CPU	| Intel i5 4210U	 |
 | RAM	| 2xDDR3l 1600MHz - 8Gb  |
 | GPU	| Intel HD Graphics 4400 |
 | Drive	| mSATA SSD 500 Gb	 |
