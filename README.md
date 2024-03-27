@@ -1,7 +1,7 @@
 # Hackintosh-z50
 
 EFI boot folder based on OpenCore for Toshiba Z50  
-Last update: February 2nd 2024. 
+Last update: March 26th 2024. 
 
 ## Description
 
