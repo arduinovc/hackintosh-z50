@@ -1,13 +1,13 @@
 # Hackintosh-z50
 
 EFI boot folder based on OpenCore for Toshiba Z50  
-Last update: March 26th 2024. 
+Last update: April 12th 2024. 
 
 ## Description
 
 EFI files based on OpenCore  
 OpenCore version: 0.9.7  
-Actual compatible macOS version: __Sonoma 14.3__  
+Compatible macOS version: __Sonoma 14.3__  
 Tested with: __Monterey 12.7.3__ & __Ventura 13.6.4__  
 
 ## How to use
@@ -17,14 +17,18 @@ Tested with: __Monterey 12.7.3__ & __Ventura 13.6.4__
 3/ Generate a new "SystemSerialNumber" and "SystemUUID" using OCAuxiliaryTools for example  
 4/ Save and reboot  
 
-### macOS Ventura and Sonoma
+### Important note: macOS Ventura and Sonoma
 
 Required to patch root with OpenCore Legacy Patcher (actual version 1.3.0)  to enable GPU acceleration.  
 To root patch, I edit boot-args and csr-active-config inside config.plist file :  
 - amfi_get_out_of_my_way=1 to disable AMFI  
-- car-active-confi = EF0F0000 to disable SIP  
+- car-active-confi=EF0F0000 to disable SIP  
 
 Some apps cannot work with this : Steam / Shadow.tech / Music (Apple DRM) / Adobe apps (Illustrator / Photoshop)    
+
+I recommend to use MacOS Monterey for full support.  
+
+MacOS Monterey is the last OS supporting natively HD4000 iGPU.  
 
 ## Hardware
 
@@ -66,14 +70,12 @@ Auto-unlock : with BLEUnlock
 
 ### Working with issue
 
-Sleep/Wake : partially (randomly not enter in sleep mode)  
-HDMI : ok but sometimes it doesn't respond  
+Sleep/Wake : partially (randomly not enter in sleep mode)    
 Touchpad : partially (need improvements / broken gestures)    
-Audio quality : not good
 
 ### Not-Working
- 
-NumLock : nok  
+
+HDMI port: doesn't work at all. Not included in this Macbook Pro SMBIOS.  
 
 ## Screenshots
 
@@ -103,10 +105,10 @@ Last OS with native HD4400 support (no root patch)
 
 Improve HDMI support  
 Improve ALPS Touchpad support  
-Try to upgrade Monterey to Ventura or Sonoma  
+Try to upgrade Monterey to Ventura or Sonoma : works (but need OpenCore Legacy Patcher)  
 
 ## Credit
 
 EFI Base folder : https://github.com/yanpol199/toshiba_z50_hackintosh  
 Bluetooth fix : https://github.com/yusufklncc/Toshiba-Portege-Z30-Hackintosh  
-https://github.com/ts1/BLEUnlock  
+BLEUnlock : https://github.com/ts1/BLEUnlock  
