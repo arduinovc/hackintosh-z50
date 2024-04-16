@@ -1,12 +1,12 @@
 # Hackintosh-z50
 
 EFI boot folder based on OpenCore for Toshiba Z50  
-Last update: April 12th 2024. 
+Last update: April 16th 2024. 
 
 ## Description
 
 EFI files based on OpenCore  
-OpenCore version: 0.9.7  
+OpenCore version: 0.9.9  
 Compatible macOS version: __Sonoma 14.3__  
 Tested with: __Monterey 12.7.3__ & __Ventura 13.6.4__  
 
@@ -67,6 +67,7 @@ Keyboard : ok
 Card Reader : ok  
 Bluetooth : ok  
 Auto-unlock : with BLEUnlock
+Boot shime : ok
 
 ### Working with issue
 
@@ -106,6 +107,9 @@ Last OS with native HD4400 support (no root patch)
 Improve HDMI support  
 Improve ALPS Touchpad support  
 Try to upgrade Monterey to Ventura or Sonoma : works (but need OpenCore Legacy Patcher)  
+
+## About Boot Shime
+I added boot shime. It can be disable by turning "AudioSupport" OFF in config.plist (section UEFI/Audio).  
 
 ## Credit
 
