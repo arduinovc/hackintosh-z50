@@ -66,7 +66,7 @@ Webcam : ok
 Keyboard : ok  
 Card Reader : ok  
 Bluetooth : ok  
-Auto-unlock : with BLEUnlock
+Auto-unlock : with BLEUnlock  
 Boot shime : ok
 
 ### Working with issue
