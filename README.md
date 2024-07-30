@@ -6,8 +6,8 @@ Last update: April 16th 2024.
 ## Description
 
 EFI files based on OpenCore  
-OpenCore version: 0.9.9  
-Compatible macOS version: __Sonoma 14.3__  
+OpenCore version: 1.0.0  
+Compatible macOS version: __Sonoma 14.5__  
 Tested with: __Monterey 12.7.3__ & __Ventura 13.6.4__  
 
 ## How to use
