@@ -222,6 +222,29 @@
         <dict>
             <key>Add</key>
             <dict>
+                <key>#PciRoot(0x0)/Pci(0x1C,0x2)/Pci(0x0,0x0)</key>
+                <dict>
+                    <key>IOName</key>
+                    <string>pci14e4,43a0</string>
+                    <key>compatible</key>
+                    <string>pci106b,117</string>
+                    <key>device-id</key>
+                    <data>oEMAAA==</data>
+                    <key>device_type</key>
+                    <string>Network controller</string>
+                    <key>model</key>
+                    <string>BCM4360 802.11ac Wireless Network</string>
+                    <key>name</key>
+                    <string>pci14e4,43a0</string>
+                    <key>pci-aspm-default</key>
+                    <integer>0</integer>
+                    <key>subsystem-id</key>
+                    <data>FwEAAA==</data>
+                    <key>subsystem-vendor-id</key>
+                    <data>axAAAA==</data>
+                    <key>vendor-id</key>
+                    <data>5BQAAA==</data>
+                </dict>
                 <key>PciRoot(0x0)/Pci(0x1B,0x0)</key>
                 <dict>
                     <key>layout-id</key>
@@ -260,7 +283,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.2 | Lilu.kext</string>
+                    <string>V1.7.0 | Lilu.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -278,7 +301,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.0</string>
+                    <string>V1.3.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -296,7 +319,7 @@
                     <key>BundlePath</key>
                     <string>IntelMausi.kext</string>
                     <key>Comment</key>
-                    <string>V1.0.7 | IntelMausi.kext</string>
+                    <string>V1.0.8 | IntelMausi.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -314,7 +337,7 @@
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext</string>
                     <key>Comment</key>
-                    <string>V2.3.5</string>
+                    <string>V2.3.7</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -332,7 +355,7 @@
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
                     <key>Comment</key>
-                    <string>V2.3.5</string>
+                    <string>V2.3.7</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -350,7 +373,7 @@
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext</string>
                     <key>Comment</key>
-                    <string>V2.3.5</string>
+                    <string>V2.3.7</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -368,7 +391,7 @@
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
                     <key>Comment</key>
-                    <string>V2.3.5</string>
+                    <string>V2.3.7</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -386,7 +409,7 @@
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.4</string>
+                    <string>V1.1.6</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -404,7 +427,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.1 | WhateverGreen.kext</string>
+                    <string>V1.6.9 | WhateverGreen.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -422,7 +445,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.7.6 | AppleALC.kext</string>
+                    <string>V1.9.3 | AppleALC.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -440,7 +463,7 @@
                     <key>BundlePath</key>
                     <string>SMCBatteryManager.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.0 | SMCBatteryManager.kext</string>
+                    <string>V1.3.4 | SMCBatteryManager.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -458,7 +481,7 @@
                     <key>BundlePath</key>
                     <string>SMCProcessor.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.0 | SMCProcessor.kext</string>
+                    <string>V1.3.4 | SMCProcessor.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -476,7 +499,7 @@
                     <key>BundlePath</key>
                     <string>USBInjectAll.kext</string>
                     <key>Comment</key>
-                    <string>V0.7.6</string>
+                    <string>V0.8.1</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
@@ -566,7 +589,7 @@
                     <key>BundlePath</key>
                     <string>FeatureUnlock.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.2 | FeatureUnlock.kext</string>
+                    <string>V1.1.7 | FeatureUnlock.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -584,7 +607,7 @@
                     <key>BundlePath</key>
                     <string>RestrictEvents.kext</string>
                     <key>Comment</key>
-                    <string>V1.0.9 | RestrictEvents.kext</string>
+                    <string>V1.1.5 | RestrictEvents.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -620,7 +643,7 @@
                     <key>BundlePath</key>
                     <string>ECEnabler.kext</string>
                     <key>Comment</key>
-                    <string>V1.0.3</string>
+                    <string>V1.0.5</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -638,7 +661,7 @@
                     <key>BundlePath</key>
                     <string>DebugEnhancer.kext</string>
                     <key>Comment</key>
-                    <string>V1.0.8</string>
+                    <string>V1.1.0</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
@@ -654,9 +677,63 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>AirportItlwm-Monterey.kext</string>
+                    <string>IOSkywalkFamily.kext</string>
                     <key>Comment</key>
-                    <string>V2.1.0</string>
+                    <string>V1.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/IOSkywalkFamily</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>IO80211FamilyLegacy.kext</string>
+                    <key>Comment</key>
+                    <string>V1200.12.2b1</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/IO80211FamilyLegacy</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>AMFIPass.kext</string>
+                    <key>Comment</key>
+                    <string>V1.4.1</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/AMFIPass</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>AirportItlwm-Ventura.kext</string>
+                    <key>Comment</key>
+                    <string>V2.3.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -692,7 +769,7 @@
                     <key>BundlePath</key>
                     <string>BlueToolFixup.kext</string>
                     <key>Comment</key>
-                    <string>V2.6.1</string>
+                    <string>V2.6.9</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -710,7 +787,7 @@
                     <key>BundlePath</key>
                     <string>IntelBTPatcher.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.0</string>
+                    <string>V2.4.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -728,7 +805,7 @@
                     <key>BundlePath</key>
                     <string>IntelBluetoothFirmware.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.0</string>
+                    <string>V2.4.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -742,7 +819,24 @@
                 </dict>
             </array>
             <key>Block</key>
-            <array/>
+            <array>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Identifier</key>
+                    <string>com.apple.iokit.IOSkywalkFamily</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string>23.0.0</string>
+                    <key>Strategy</key>
+                    <string>Exclude</string>
+                </dict>
+            </array>
             <key>Emulate</key>
             <dict>
                 <key>Cpuid1Data</key>
@@ -913,7 +1007,7 @@
                 <key>PollAppleHotKeys</key>
                 <false/>
                 <key>ShowPicker</key>
-                <false/>
+                <true/>
                 <key>TakeoffDelay</key>
                 <integer>0</integer>
                 <key>Timeout</key>
@@ -1044,6 +1138,8 @@
                 <dict/>
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
+                    <key>#boot-args</key>
+                    <string>amfi_get_out_of_my_way=1</string>
                     <key>StartupMute</key>
                     <data>AA==</data>
                     <key>SystemAudioVolume</key>
@@ -1051,7 +1147,7 @@
                     <key>boot-args</key>
                     <string>darkwake=0 keepsyms=1 debug=0x100</string>
                     <key>csr-active-config</key>
-                    <data>AAAAAA==</data>
+                    <data>7w8AAA==</data>
                     <key>prev-lang:kbd</key>
                     <string>fr-FR:0</string>
                     <key>run-efi-updater</key>
@@ -1162,7 +1258,7 @@
                 <key>AudioOutMask</key>
                 <integer>1</integer>
                 <key>AudioSupport</key>
-                <true/>
+                <false/>
                 <key>DisconnectHda</key>
                 <false/>
                 <key>MaximumGain</key>
@@ -1390,6 +1486,8 @@
                 <false/>
             </dict>
             <key>ReservedMemory</key>
+            <array/>
+            <key>Unload</key>
             <array/>
         </dict>
     </dict>
