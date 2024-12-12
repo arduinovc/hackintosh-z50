@@ -1,14 +1,17 @@
 # Hackintosh-z50
 
 EFI boot folder based on OpenCore for Toshiba Z50  
-Last update: April 16th 2024. 
+Last update: December 12th 2024. 
 
 ## Description
 
 EFI files based on OpenCore  
-OpenCore version: 1.0.0  
-Compatible macOS version: __Sonoma 14.5__  
-Tested with: __Monterey 12.7.3__ & __Ventura 13.6.4__  
+OpenCore version: 1.0.3  
+Compatible macOS version: __Sequoia 15.1.1__  
+Tested with: __Monterey 12.7.4__ & __Ventura 13.7.2__ & __Sonoma 14.7.2__ 
+
+Updated with the latest versions :
+![Toshiba Tecra Z50 macOS versions](/Assets/macos-versions.png "Toshiba Tecra Z50") 
 
 ## How to use
 
@@ -17,18 +20,29 @@ Tested with: __Monterey 12.7.3__ & __Ventura 13.6.4__
 3/ Generate a new "SystemSerialNumber" and "SystemUUID" using OCAuxiliaryTools for example  
 4/ Save and reboot  
 
-### Important note: macOS Ventura and Sonoma
+### Important note: macOS Ventura, Sonoma and Sequoia  
 
-Required to patch root with OpenCore Legacy Patcher (actual version 1.3.0)  to enable GPU acceleration.  
+Required to patch root with OpenCore Legacy Patcher (actual version 2.2.0) to enable GPU acceleration and Wifi(Sequoia).  
 To root patch, I edit boot-args and csr-active-config inside config.plist file :  
-- amfi_get_out_of_my_way=1 to disable AMFI  
-- car-active-confi=EF0F0000 to disable SIP  
+- enable AMFIPass.kext to disable AMFI  
+- csr-active-confi=EF0F0000 to disable SIP  
 
 Some apps cannot work with this : Steam / Shadow.tech / Music (Apple DRM) / Adobe apps (Illustrator / Photoshop)    
 
 I recommend to use MacOS Monterey for full support.  
 
 MacOS Monterey is the last OS supporting natively HD4000 iGPU.  
+
+### Important note: Intel Wireless Card with Sequoia  
+
+Airportitlwm actually doesn't support Sequoia. That's the trick:  
+- use OCAuxiliaryTools and edit config.plist to uncomment DP/PCIExpress entry (remove #)  
+- reboot computer and patch with OpenCore Legacy Patcher
+- reboot computer again and comment DP/PCIExpress entry (set #)  
+- reboot another time your laptop  
+
+It uses *Ventura*-airportitlwm.kext to work under Sequoia.  
+Actually, there is no Bluetooth support.  
 
 ## Hardware
 
@@ -73,20 +87,26 @@ Boot shime : ok
 
 Sleep/Wake : partially (randomly not enter in sleep mode)    
 Touchpad : partially (need improvements / broken gestures)    
-
+  
 ### Not-Working
-
+  
 HDMI port: doesn't work at all. Not included in this Macbook Pro SMBIOS.  
-
+  
 ## Screenshots
-
+  
+### macOS Sequoia 15.1.1  
+![Toshiba Tecra Z50 Sequoia](/Assets/Sequoia.png "Toshiba Tecra Z50")
+![Toshiba Tecra Z50 SystemInfo](/Assets/Sequoia-SystemInfo.png "Toshiba Tecra Z50")
+![Toshiba Tecra Z50 SystemSettings](/Assets/Sequoia-SystemSettings.png "Toshiba Tecra Z50")
+![Toshiba Tecra Z50 Passwords](/Assets/Sequoia-Passwords.png "Toshiba Tecra Z50")
+  
 ### macOS Sonoma 14.3  
 Upgrade from Ventura to Sonoma
 ![Toshiba Tecra Z50 Monterey](/Assets/Sonoma.png "Toshiba Tecra Z50")
 ![Toshiba Tecra Z50 SystemInfo](/Assets/Sonoma-SystemInfo.png "Toshiba Tecra Z50")
 ![Toshiba Tecra Z50 SystemSettings](/Assets/Sonoma-SystemSettings.png "Toshiba Tecra Z50")
 ![Toshiba Tecra Z50 OCAuxiliaryTools](/Assets/Sonoma-FinalCut.png "Toshiba Tecra Z50")
-
+  
 ### macOS Ventura 13.6.4  
 Upgrade from Monterey to Ventura
 ![Toshiba Tecra Z50 Monterey](/Assets/Ventura.png "Toshiba Tecra Z50")
@@ -94,14 +114,13 @@ Upgrade from Monterey to Ventura
 ![Toshiba Tecra Z50 SystemSettings](/Assets/Ventura-SystemSettings.png "Toshiba Tecra Z50")
 ![Toshiba Tecra Z50 OCAuxiliaryTools](/Assets/Ventura-Launchpad.png "Toshiba Tecra Z50")
   
-
 ### macOS Monterey 12.7.1  
 Last OS with native HD4400 support (no root patch)  
 ![Toshiba Tecra Z50 Monterey](/Assets/Monterey.png "Toshiba Tecra Z50")
 ![Toshiba Tecra Z50 SystemInfo](/Assets/SystemInfo.png "Toshiba Tecra Z50")
 ![Toshiba Tecra Z50 SystemSettings](/Assets/SystemSettings.png "Toshiba Tecra Z50")
 ![Toshiba Tecra Z50 OCAuxiliaryTools](/Assets/OCAuxiliaryTools.png "Toshiba Tecra Z50")
-
+  
 ## Work to do
 
 Improve HDMI support  
